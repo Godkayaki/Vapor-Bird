@@ -130,7 +130,7 @@ pygame.init()
 pygame.display.set_caption("VaporBird")
 #Inicio la musica de fons
 pygame.mixer.init()
-pygame.mixer.music.load("../assets/Sounds/backgroundmusic.mp3")
+pygame.mixer.music.load("../assets/Sounds/backgroundmusic.wav")
 pygame.mixer.music.play(-1, 0.0)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
